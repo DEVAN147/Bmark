@@ -1,0 +1,25 @@
+/* Add a simple CSS rule for the edit and delete buttons */
+.edit, .delete {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.edit {
+    background-color: #5bc0de;
+}
+
+.edit:hover {
+    background-color: #31b0d5;
+}
+
+.delete:hover {
+    background-color: #c9302c;
+}
+
+.message {
+    color: red;
+    margin-top: 10px;
+}

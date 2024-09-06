@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouped Bookmark Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bookmark Dashboard</h1>
+
+        <!-- Form to Add Bookmark -->
+        <form id="bookmarkForm">
+            <input type="text" id="siteName" placeholder="Website Name" required>
+            <input type="url" id="siteUrl" placeholder="Website URL" required>
+            <select id="groupName">
+                <!-- Group options will be dynamically added here -->
+            </select>
+            <button type="submit">Add Bookmark</button>
+        </form>
+
+        <!-- Form to Create New Group -->
+        <form id="groupForm">
+            <input type="text" id="newGroupName" placeholder="New Group Name" required>
+            <button type="submit">Add Group</button>
+        </form>
+
+        <div id="bookmarksList">
+            <!-- Bookmark groups will be dynamically added here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
